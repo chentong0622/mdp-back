@@ -1,0 +1,11 @@
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:sqlserver://120.53.232.132:1433;DatabaseName=mdp
+    username: SA
+    password: CX0524@2021
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+logging:
+  config: classpath:logback-local.xml
+server:
+  port: 8090

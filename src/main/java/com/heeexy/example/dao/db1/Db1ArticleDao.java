@@ -1,9 +1,7 @@
-package com.heeexy.example.dao;
+package com.heeexy.example.dao.db1;
 
-import com.alibaba.fastjson.JSONObject;
 import com.heeexy.example.condition.ArticleCondition;
 import com.heeexy.example.domain.entity.Article;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -12,7 +10,7 @@ import java.util.List;
  * @description: 用户/角色/权限
  * @date: 2017-11-14 15:08:45
  */
-public interface TestDao {
+public interface Db1ArticleDao {
     /**
      * 查询用户数量
      */
